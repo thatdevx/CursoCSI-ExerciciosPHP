@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <style>
+        section {
+            width: 40%;
+            margin: auto;
+        }
+
+        button {
+            margin: 15px;
+        }
+
+        input {
+            margin: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section>
+        <h1>Questão em sala de Aula - 04/05/20023</h1>
+        <p>Faça um programa que calcule o número de horas trabalhadas de um salário mínimo e o número de dependentes.
+            Calcule e mostre o salário a receber sabendo que:<br><br>
+            1 - A hora trabalhada equivale a 1/5 do salário mínimo.<br>
+            2 - O salário bruto equivale ao numero de horas trabalhadas multiplicados pelo valor da hora.<br>
+            3 - O imposto a pagar é o equivale a 5.9% do salário bruto.<br>
+            4 - O trabalhador recebe 1/12 do salário bruto por dependentes.<br>
+        </p>
+        <form action="aula04_05_23.php" method="post">
+            <div>
+                Digite o valor do salário minino: <input type="number" name="salarioMinimo" size="5" placeholder="">
+            </div>
+            <div>
+                Digite as horas trabalhadas: <input type="number" name="horas" size="5" placeholder="">
+            </div>
+            <div>
+                Digite a quantidades de dependentes: <input type="number" name="dependentes" size="5" placeholder="">
+            </div>
+            <button type="submit">ENVIAR!</button>
+        </form>
+    </section>
+
+</body>
+
+</html>
